@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  
+    margin-right:auto;
+    margin-left:auto;
+    text-align: center;
+}
+
+ .card{
+    background-color: aquamarine;
+    border: solid black;
+    margin-top: 2em;
+ }
+
+ img {
+   width: 200px;
+   height: 200px;
+   
+   background-color: white;
+}
+
+#luchar{
+   border: blue 2px solid;
+   margin: auto; 
+}
+
+.center{
+   align-content: center;
+   margin-top: 2em;
+   display: flex;
+}
+ 
