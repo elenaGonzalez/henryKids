@@ -28,6 +28,14 @@ function listar() {
     }
 }
 
+function explode() {
+    const body = document.getElementsByTagName('body');
+    const html = document.getElementsByTagName('html');
+    body[0].setAttribute('style', 'display: none'); 
+    html[0].setAttribute('style', 'background-image: url(../b.jpg);');        
+}
+
 agregar.addEventListener("click", listar);
+boom.addEventListener('click', explode);
 
 listar();
